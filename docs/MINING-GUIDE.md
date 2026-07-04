@@ -9,7 +9,9 @@ Everything you need to start mining **Pearl (PRL)** on Nacre. It takes about 5 m
 
 ## 1. Requirements
 
-- An **NVIDIA GPU** (Pearl's miner is CUDA-only — AMD/Intel GPUs are not supported).
+- A supported GPU:
+  - **NVIDIA** (recommended) — RTX 30 / 40 / 50 series, V100, or datacenter Ampere/Ada/Hopper/Blackwell cards.
+  - **AMD** — supported via a separate `alpha-miner-amd` build (currently **beta**; see the miner's releases).
 - A recent **NVIDIA driver + CUDA runtime** installed and working (`nvidia-smi` should list your GPU).
 - A **Pearl wallet address** (`prl1p…`). This is where your rewards are paid, and it doubles as
   your pool account — there is no separate signup.
@@ -22,6 +24,9 @@ build from its **official releases** and put it on your PATH (or note its full p
 > ℹ️ **Download:** **<https://github.com/AlphaMine-Tech/alpha-miner/releases>**
 > alpha-miner is a third-party tool (NVIDIA/CUDA, 0% dev fee) that works with any Pearl pool. Nacre
 > does not modify, rehost, or bundle it — you get it directly from its maker.
+
+> 💡 **Version tip:** if the newest build gives unusually low hashrate or GPU errors, drop to the last
+> known-stable release **v1.7.9** — some newer builds (1.8.0 / 1.8.1) have had reported regressions.
 
 Verify it runs:
 
