@@ -16,11 +16,12 @@ Everything you need to start mining **Pearl (PRL)** on Nacre. It takes about 5 m
 
 ## 2. Get the miner (`alpha-miner`)
 
-Nacre uses the standard Pearl CUDA miner, **`alpha-miner`**. Download the latest build for your OS
-and put it somewhere on your PATH (or note its full path).
+Nacre uses the standard Pearl CUDA miner, **`alpha-miner`** (by AlphaMine-Tech). Download the latest
+build from its **official releases** and put it on your PATH (or note its full path):
 
-> ℹ️ **Download link:** grab `alpha-miner` from the official Pearl / alpha-miner distribution.
-> *(Maintainers: replace this line with the canonical release URL.)*
+> ℹ️ **Download:** **<https://github.com/AlphaMine-Tech/alpha-miner/releases>**
+> alpha-miner is a third-party tool (NVIDIA/CUDA, 0% dev fee) that works with any Pearl pool. Nacre
+> does not modify, rehost, or bundle it — you get it directly from its maker.
 
 Verify it runs:
 
