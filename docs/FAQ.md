@@ -39,8 +39,8 @@ The dashboard shows **pool-effective** hashrate measured from accepted shares, w
 differs from your miner's instantaneous local reading. Over time they converge.
 
 ### Is this the same as AlphaPool / other pools?
-No — Nacre is an independent, 0% fee pool. You use the same `alpha-miner` software; you just point
-it at `stratum.nacrepool.com`.
+No — Nacre is an independent pool (**0% fee at launch**), not affiliated with AlphaPool. See the
+[Mining Guide](MINING-GUIDE.md) to get connected.
 
 ### I found a bug / have a suggestion.
 Open a [GitHub issue](https://github.com/DarioVlahovic/Nacre-mining-pool/issues).
