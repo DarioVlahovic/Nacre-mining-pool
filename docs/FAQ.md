@@ -1,9 +1,8 @@
 # Nacre FAQ
 
 ### What does it cost? What's the fee?
-Nacre **launched at 0%** — there's currently no pool fee, so you keep 100% of your rewards (less
-only the tiny on-chain network fee at payout). Nacre may introduce a fee later; if so, it will be
-announced and the current fee is always shown live on the dashboard.
+**0%.** Nacre takes no pool fee — you keep 100% of your mining rewards (less only the tiny on-chain
+network fee when a payout transaction is sent).
 
 ### Do I need to sign up?
 No. Your Pearl (`prl1p…`) wallet address **is** your account. Just point your miner at Nacre with
@@ -39,7 +38,7 @@ The dashboard shows **pool-effective** hashrate measured from accepted shares, w
 differs from your miner's instantaneous local reading. Over time they converge.
 
 ### Is this the same as AlphaPool / other pools?
-No — Nacre is an independent pool (**0% fee at launch**), not affiliated with AlphaPool. See the
+No — Nacre is an independent pool (**0% fee**), not affiliated with AlphaPool. See the
 [Mining Guide](MINING-GUIDE.md) to get connected.
 
 ### I found a bug / have a suggestion.

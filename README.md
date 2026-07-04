@@ -2,12 +2,12 @@
 
 # Nacre — a mining pool for Pearl (PRL)
 
-**0% pool fee at launch.** Nacre is a mining pool for **Pearl (PRL)**, a GPU
+**0% pool fee.** Nacre is a mining pool for **Pearl (PRL)**, a GPU
 proof-of-useful-work blockchain. No registration, no email: your wallet address is your account.
 
-[**🌐 nacrepool.com**](https://nacrepool.com) · PPLNS `:5566` · Solo `:5567` · **0% fee (launch rate)**
+[**🌐 nacrepool.com**](https://nacrepool.com) · PPLNS `:5566` · Solo `:5567` · **0% fee**
 
-`0% fee at launch` &nbsp;·&nbsp; `PPLNS + Solo` &nbsp;·&nbsp; `No signup` &nbsp;·&nbsp; `Non-custodial payouts` &nbsp;·&nbsp; `NVIDIA / CUDA`
+`0% fee` &nbsp;·&nbsp; `PPLNS + Solo` &nbsp;·&nbsp; `No signup` &nbsp;·&nbsp; `Non-custodial payouts` &nbsp;·&nbsp; `NVIDIA / CUDA`
 
 </div>
 
@@ -17,9 +17,8 @@ proof-of-useful-work blockchain. No registration, no email: your wallet address 
 
 Nacre is an independent mining pool for **Pearl (PRL)**. You run the Pearl GPU miner on your
 own NVIDIA hardware, point it at Nacre, and the pool combines everyone's work to find blocks and
-shares the rewards. Nacre launched with a **0% pool fee** — right now you keep everything you mine
-(less only the tiny on-chain network fee at payout). Any future fee change will be announced here
-and shown live on the dashboard.
+shares the rewards. Nacre charges a **0% pool fee** — you keep everything you mine, less only the
+tiny on-chain network fee when your payout is sent.
 
 - **🌐 Dashboard:** <https://nacrepool.com>
 - **⛏️ Stratum — PPLNS:** `stratum+tcp://stratum.nacrepool.com:5566`
@@ -29,7 +28,7 @@ and shown live on the dashboard.
 
 | | |
 |---|---|
-| **0% fee at launch** | No pool fee right now — you keep 100% of your rewards. Any future fee will be announced and always shown live on the dashboard. |
+| **0% pool fee** | You keep 100% of your rewards. No hidden cuts. |
 | **PPLNS *and* Solo** | Choose steady, smoothed payouts (PPLNS) or winner-takes-the-block (Solo). |
 | **No signup, no email** | Your `prl1p…` wallet address *is* your account. Start in seconds. |
 | **Non-custodial payouts** | Rewards are paid straight to your address. Nacre never asks for your keys or seed. |
@@ -60,7 +59,7 @@ private dashboard.
 
 | Setting | Value |
 |---|---|
-| **Fee** | **0%** at launch — subject to change; the live rate is always shown on the dashboard |
+| **Fee** | **0%** |
 | **Modes** | PPLNS (port `5566`) · Solo (port `5567`) |
 | **PPLNS scheme** | Time-weighted, ~65-minute exponential half-life (recent work counts most) |
 | **Minimum payout** | 1 PRL |
@@ -75,7 +74,7 @@ private dashboard.
 - **PPLNS (recommended).** Every block the pool finds is split across all miners by their recent
   contribution. Income is **steady and predictable** — you get paid a little and often, and luck
   is smoothed out. Best for most miners.
-- **Solo.** You keep the **entire block reward** you find (currently 0% fee). Income is
+- **Solo.** You keep the **entire block reward** you find (0% fee). Income is
   **swingy** — you may mine a while with nothing, then hit a full block. Best for larger rigs
   comfortable with variance.
 
