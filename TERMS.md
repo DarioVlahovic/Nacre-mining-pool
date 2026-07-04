@@ -22,8 +22,10 @@ seed phrase.**
 
 ## 3. Fees
 
-The pool fee is **0%**. Rewards are distributed in full to miners, less only the standard on-chain
-network transaction fee required to send a payout.
+The pool fee is **currently 0%**. Nacre may change the pool fee at any time and at its discretion;
+the current fee is always displayed on the dashboard, and any change applies prospectively to
+rewards earned after the change. Rewards are distributed to miners according to the then-current
+fee, less only the standard on-chain network transaction fee required to send a payout.
 
 ## 4. Payouts
 

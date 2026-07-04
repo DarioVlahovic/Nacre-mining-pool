@@ -1,8 +1,9 @@
 # Nacre FAQ
 
 ### What does it cost? What's the fee?
-**0%.** Nacre takes no pool fee — you keep 100% of your mining rewards (less only the tiny on-chain
-network fee when a payout transaction is sent).
+Nacre **launched at 0%** — there's currently no pool fee, so you keep 100% of your rewards (less
+only the tiny on-chain network fee at payout). Nacre may introduce a fee later; if so, it will be
+announced and the current fee is always shown live on the dashboard.
 
 ### Do I need to sign up?
 No. Your Pearl (`prl1p…`) wallet address **is** your account. Just point your miner at Nacre with
