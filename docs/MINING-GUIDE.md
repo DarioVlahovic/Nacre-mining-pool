@@ -18,15 +18,21 @@ Everything you need to start mining **Pearl (PRL)** on Nacre. It takes about 5 m
 
 ## 2. Get the miner (`alpha-miner`)
 
-Nacre uses the standard Pearl CUDA miner, **`alpha-miner`** (by AlphaMine-Tech). Download the latest
-build from its **official releases** and put it on your PATH (or note its full path):
+Nacre uses the standard Pearl CUDA miner, **`alpha-miner`** (by AlphaMine-Tech). Grab the latest
+**stable** build for your system — one click:
 
-> ℹ️ **Download:** **<https://github.com/AlphaMine-Tech/alpha-miner/releases>**
-> alpha-miner is a third-party tool (NVIDIA/CUDA, 0% dev fee) that works with any Pearl pool. Nacre
-> does not modify, rehost, or bundle it — you get it directly from its maker.
+- 🪟 **Windows:** **[Download AlphaMiner-Pearl-Windows.zip](https://github.com/AlphaMine-Tech/alpha-miner/releases/latest/download/AlphaMiner-Pearl-Windows.zip)** — unzip it, then run the miner inside.
+- 🐧 **Linux:** **[Download the `alpha-miner` binary](https://github.com/AlphaMine-Tech/alpha-miner/releases/latest/download/alpha-miner)** — then `chmod +x alpha-miner` to make it runnable.
+- 📦 **All builds / older cards / AMD:** [alpha-miner releases](https://github.com/AlphaMine-Tech/alpha-miner/releases/latest)
 
-> 💡 **Version tip:** if the newest build gives unusually low hashrate or GPU errors, drop to the last
-> known-stable release **v1.7.9** — some newer builds (1.8.0 / 1.8.1) have had reported regressions.
+Put it on your PATH (or just note its full path so you can call it).
+
+> ℹ️ alpha-miner is a third-party tool (NVIDIA/CUDA, 0% dev fee) that works with any Pearl pool. Nacre
+> does not modify, rehost, or bundle it — you download it straight from its maker.
+
+> 💡 **Trouble?** If the newest build gives unusually low hashrate or GPU errors, grab an earlier
+> **stable** release from the [releases page](https://github.com/AlphaMine-Tech/alpha-miner/releases)
+> (skip any marked *pre-release*).
 
 Verify it runs:
 
