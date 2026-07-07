@@ -27,7 +27,8 @@ Nacre uses the standard Pearl CUDA miner, **`alpha-miner`** (by AlphaMine-Tech).
 
 Put it on your PATH (or just note its full path so you can call it).
 
-> ℹ️ alpha-miner is a third-party tool (NVIDIA/CUDA, 0% dev fee) that works with any Pearl pool. Nacre
+> ℹ️ alpha-miner is a third-party tool (NVIDIA/CUDA) that works with any Pearl pool. **Use the latest
+> release: v1.7.7+ has a 0% dev fee, but v1.7.6 and older took a 1% dev fee.** Nacre
 > does not modify, rehost, or bundle it — you download it straight from its maker.
 
 > 💡 **Trouble?** If the newest build gives unusually low hashrate or GPU errors, grab an earlier
